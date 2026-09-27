@@ -7,6 +7,7 @@ __pycache__/
 Books/
 Output/
 temp/
+datasets/
 # C extensions
 *.so
 # test

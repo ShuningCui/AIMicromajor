@@ -70,6 +70,14 @@ math: mathjax
 
 ## Scaling / Standardizing / Normalizing
 
+![#c w:500](../pictures/5-2.png)
+
+![#c w:500](../pictures/5-1.png)
+
+---
+
+## Scaling / Standardizing / Normalizing
+
 > 重要提示：StandardScaler这类预处理操作*必须*在训练集、验证集、测试集划分完成之后执行；否则，会把验证集和（或）测试集的信息泄露给模型！
 > 仅使用训练集对StandardScaler进行拟合之后，需要调用它的transform()方法，对全部数据集（训练集、验证集、测试集）执行该预处理操作。
 > StandardScaler是`sklearn`的方法。pytorch没有类似的函数或者类
