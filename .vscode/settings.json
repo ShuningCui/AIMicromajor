@@ -2,5 +2,5 @@
   "markdown.marp.themes": [
     "./themes/MyGaia.scss",
   ],
-
+  "jupyter.notebookFileRoot": "${workspaceFolder}"
 }
