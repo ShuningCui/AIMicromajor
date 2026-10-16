@@ -29,7 +29,7 @@ def to_oct_list(n: int) -> list[int]:
 if __name__ == "__main__":
     non_conflicts = 28
     total = 0
-    for i in range(8 ** 8):
+    for i in range(8**8):
         individual = to_oct_list(i)
         if fitness(individual) == non_conflicts:
             total += 1
