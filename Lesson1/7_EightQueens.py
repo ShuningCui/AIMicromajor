@@ -105,7 +105,7 @@ def output_board(individual):
 
 
 if __name__ == "__main__":
-    population_size = 1000
+    population_size = 10
     queen_size = 8
     population = init_population(population_size, queen_size)
 
@@ -121,7 +121,8 @@ if __name__ == "__main__":
         # calculate probability
         fitness_probability(population)
         # select next generation
-        next_generation = select_next_generation(population, population_size // 2)
+        pop_size = population_size // 2 if population_size // 2 % 2 == 0 else (population_size // 2) + 1 
+        next_generation = select_next_generation(population, pop_size)
         # crossover
         crossovered_population = crossover_all(next_generation)
         random.shuffle(next_generation)
