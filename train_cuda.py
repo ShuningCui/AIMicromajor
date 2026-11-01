@@ -41,7 +41,8 @@ def mini_batch_val(data_loader, model, loss_fn, device):
     return loss
 
 
-def train(model, train_loader, test_loader, loss_fn, optimizer, epochs, device):
+def train(model, train_loader, test_loader, loss_fn, 
+          optimizer, epochs, device):
     # 指定随机数种子，可以再现数据
     np.random.seed(23)
     torch.manual_seed(23)
