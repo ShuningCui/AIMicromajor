@@ -3,5 +3,4 @@
     "./themes/MyGaia.scss",
   ],
   "jupyter.notebookFileRoot": "${workspaceFolder}",
-  "editor.inlineSuggest.enabled": true
 }
