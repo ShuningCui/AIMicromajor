@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# lightning logs
+lightning_logs/
+**/lightning_logs/
+
 # data
 Books/
 Output/
